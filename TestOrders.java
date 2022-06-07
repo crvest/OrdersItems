@@ -20,24 +20,12 @@ public class TestOrders {
         // Order variables -- order1, order2 etc.
         Order order1 = new Order();
         order1.name = "Cindhuri";
-        order1.total = 0;
-        order1.ready = false;
-        order1.items = new ArrayList<>();
         Order order2 = new Order();
         order2.name = "Jimmy";
-        order2.total = 0;
-        order2.ready = false;
-        order2.items = new ArrayList<>();
         Order order3 = new Order();
         order3.name = "Noah";
-        order3.total = 0;
-        order3.ready = false;
-        order3.items = new ArrayList<>();
         Order order4 = new Order();
         order4.name = "Sam";
-        order4.total = 0;
-        order4.ready = false;
-        order4.items = new ArrayList<>();
 
         // add item1 to order2
         System.out.println("----------");
